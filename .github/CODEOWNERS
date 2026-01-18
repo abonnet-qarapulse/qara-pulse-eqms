@@ -1,0 +1,36 @@
+# CODEOWNERS File
+#
+# This file defines who owns and must review changes to specific parts of the repository.
+# GitHub automatically requests reviews from the specified owners when Pull Requests
+# modify files in their assigned paths.
+#
+# How it works:
+# - When a PR modifies files in a path, GitHub requests review from the specified owners
+# - Owners must approve before the PR can be merged (if branch protection is enabled)
+# - This enforces document control and ensures proper review of QMS changes
+#
+# To use this file:
+# 1. Replace {{GITHUB_TEAM_OR_USERNAME}} with your GitHub team name or username
+# 2. Configure branch protection rules in GitHub repository settings
+# 3. Enable "Require review from CODEOWNERS" in branch protection settings
+#
+# For more information: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# QMS – controlled documents
+/qms/03_procedures/ @{{GITHUB_TEAM_OR_USERNAME}}
+/qms/04_work-instructions/ @{{GITHUB_TEAM_OR_USERNAME}}
+/qms/05_templates/ @{{GITHUB_TEAM_OR_USERNAME}}
+/qms/06_records/ @{{GITHUB_TEAM_OR_USERNAME}}
+
+# QMS governance and indexes
+/qms/00_index/ @{{GITHUB_TEAM_OR_USERNAME}}
+/qms/01_governance/ @{{GITHUB_TEAM_OR_USERNAME}}
+/qms/02_processes/ @{{GITHUB_TEAM_OR_USERNAME}}
+
+# QMS archive
+/qms/99_archive/ @{{GITHUB_TEAM_OR_USERNAME}}
+
+# Automation and infrastructure
+/.github/ @{{GITHUB_TEAM_OR_USERNAME}}
+/scripts/ @{{GITHUB_TEAM_OR_USERNAME}}
+/Makefile @{{GITHUB_TEAM_OR_USERNAME}}
