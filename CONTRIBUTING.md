@@ -144,12 +144,12 @@ When modifying QMS documents:
 1. **Fork the repository** on GitHub
 2. **Clone your fork**:
    ```bash
-   git clone git@github.com:YOUR_USERNAME/pulse-eqms-starter.git
+   git clone git@github.com:YOUR_USERNAME/qara-pulse-eqms.git
    cd pulse-eqms-starter
    ```
 3. **Add upstream remote**:
    ```bash
-   git remote add upstream git@github.com:abonnet-qarapulse/pulse-eqms-starter.git
+   git remote add upstream git@github.com:abonnet-qarapulse/qara-pulse-eqms.git
    ```
 4. **Create a branch** for your changes:
    ```bash
