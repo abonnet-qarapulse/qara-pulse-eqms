@@ -74,6 +74,7 @@ It assumes internal ownership of Quality and Regulatory responsibilities.
 ✅ **CI/CD-ready quality gates** — Automated validation and consistency checks  
 ✅ **Standardized YAML metadata** — Consistent document identification  
 ✅ **Template-based content** — Fully customizable procedures and templates  
+✅ **MDR Technical Documentation starter** — Annex II & III folder structure for product-specific evidence  
 ✅ **Clear setup guidance** — Step-by-step instantiation checklist
 
 ## Key Principles
@@ -218,10 +219,31 @@ No separate change logs are required.
 - **EU MDR** — Lifecycle documentation and traceability requirements
 - **IEC 62304** — Software development lifecycle integration
 
+## Technical Documentation (EU MDR Annex II & III)
+
+The [`technical-documentation/`](technical-documentation/) folder provides a starter structure for Technical Documentation as required by:
+
+- **EU MDR 2017/745 — Annex II** (Technical Documentation)
+- **EU MDR 2017/745 — Annex III** (Post-Market Surveillance)
+
+This structure complements the Quality Management System under [`qms/`](qms/):
+
+- The **QMS** defines processes, roles, and controlled rules that govern how the organization operates.
+- The **Technical Documentation** contains product-specific evidence and demonstrates compliance for a given medical device.
+
+Like the QMS, the Technical Documentation benefits from Git-native control principles:
+
+- Changes are made via Pull Requests
+- Reviews serve as approvals and signatures
+- Merging to main makes the change effective and auditable
+
+**Note:** The content is template-based and must be instantiated per product and organization.
+
 ## Repository Structure
 
 ```
 .
+├── technical-documentation/   # MDR Annex II & III Technical Documentation starter (product-specific evidence)
 ├── qms/
 │   ├── 00_index/              # Indexes and system-level references
 │   ├── 01_governance/         # Quality Manual, policies, objectives
