@@ -1,6 +1,6 @@
 ---
 doc_id: VAL-EQMS-GIT-00
-title: "Git-native eQMS Validation Dossier - README"
+title: "Git-native eQMS Validation Documentation - README"
 doc_type: "Validation Record"
 process: "QMS"
 owner: TBD
@@ -9,11 +9,11 @@ version: "0.1"
 effective_date: TBD
 ---
 
-# Git-native eQMS Validation Dossier - README
+# Git-native eQMS Validation Documentation - README
 
 ## Purpose
 
-This folder contains the validation dossier for the Git-native electronic Quality Management System (eQMS) configuration used by the organization.
+This folder contains the validation documentation for the Git-native electronic Quality Management System (eQMS) configuration used by the organization.
 
 The validation is performed in accordance with:
 - **ISO 13485:2016 Clause 4.1.6** — Validation of software used in the quality management system
@@ -31,7 +31,7 @@ The validation demonstrates that the Git-native eQMS configuration is capable of
 
 ## Scope
 
-This validation dossier covers the following software components and mechanisms used to operate the Git-native eQMS:
+This validation documentation covers the following software components and mechanisms used to operate the Git-native eQMS:
 
 1. **GitHub** — Repository hosting platform (SaaS)
 2. **Git** — Distributed version control system
@@ -44,7 +44,7 @@ The validation focuses on critical functions that impact QMS document control, t
 
 ---
 
-## Validation Dossier Structure
+## Validation Documentation Structure
 
 | File | Description |
 |------|-------------|
@@ -66,7 +66,7 @@ The validation focuses on critical functions that impact QMS document control, t
 
 **Current Status:** Under Validation
 
-This dossier provides the **structure and methodology** for validation. Each organization must:
+This documentation provides the **structure and methodology** for validation. Each organization must:
 
 1. **Execute the test protocols** using their specific Git-native eQMS configuration
 2. **Collect objective evidence** of successful test execution
@@ -74,7 +74,7 @@ This dossier provides the **structure and methodology** for validation. Each org
 4. **Complete the validation summary report** with evidence references
 5. **Obtain formal approval** through the organization's quality review process
 
-**Disclaimer:** This dossier is provided as a template. Validation completion, evidence generation, and approval remain the responsibility of each implementing organization.
+**Disclaimer:** This documentation is provided as a template. Validation completion, evidence generation, and approval remain the responsibility of each implementing organization.
 
 ---
 
@@ -89,7 +89,7 @@ This dossier provides the **structure and methodology** for validation. Each org
 
 ## Document Control
 
-This validation dossier is maintained under the organization's document control system. Changes to the validation approach, test protocols, or validation status are managed through the **Change Control Procedure**.
+This validation documentation is maintained under the organization's document control system. Changes to the validation approach, test protocols, or validation status are managed through the **Change Control Procedure**.
 
 Revalidation may be required when:
 - Critical configuration changes are made (branch protection, CODEOWNERS, CI/CD)
@@ -111,7 +111,7 @@ See `11_Revalidation-Plan.md` for detailed revalidation triggers.
 
 ---
 
-This validation dossier is provided as part of the Git-native eQMS framework developed by **QARA PULSE**.
+This validation documentation is provided as part of the Git-native eQMS framework developed by **QARA PULSE**.
 
 It is shared under the terms of the Apache License, Version 2.0.
 You may use, modify, and distribute this documentation in accordance with the License.
