@@ -41,7 +41,14 @@ The inventory reflects the current state of software assets used by the organiza
 
 | Software Name | Version | Type | Classification | Purpose/Function | Validation Status | Owner | Notes |
 |--------------|---------|------|----------------|------------------|-------------------|-------|-------|
-| {{software name}} | {{version}} | {{SaMD/SiMD/Non-product}} | {{classification}} | {{purpose}} | {{validated/under validation}} | {{owner}} | {{notes}} |
+| GitHub | SaaS (GitHub.com) | Non-product | N/A | Git repository hosting platform for eQMS document control, access control, audit trail, and collaborative workflows | Under Validation | TBD | Part of Git-native eQMS infrastructure. Validation dossier: `qms/06_records/software-validation/eQMS-git-native/` |
+| Git | TBD | Non-product | N/A | Distributed version control system used for document versioning, change tracking, and audit trail | Under Validation | TBD | Core component of Git-native eQMS. Validation dossier: `qms/06_records/software-validation/eQMS-git-native/` |
+| GitHub Pull Requests | Native to GitHub | Non-product | N/A | Change control workflow mechanism for proposing, reviewing, and approving QMS document changes | Under Validation | TBD | Implements formal change control process. Validation dossier: `qms/06_records/software-validation/eQMS-git-native/` |
+| GitHub CODEOWNERS | Native to GitHub | Non-product | N/A | Approval authority mechanism defining who is authorized to approve changes to specific QMS documents | Under Validation | TBD | Enforces separation of duties and approval matrix. Validation dossier: `qms/06_records/software-validation/eQMS-git-native/` |
+| GitHub Branch Protection Rules | Native to GitHub | Non-product | N/A | Technical enforcement of quality rules (mandatory PRs, required reviews, status checks) to prevent unauthorized changes to controlled documents | Under Validation | TBD | Technical control for quality enforcement. Validation dossier: `qms/06_records/software-validation/eQMS-git-native/` |
+| GitHub Actions | Native to GitHub | Non-product | N/A | CI/CD platform for automated quality gates, document validation, metadata checks, and consistency verification | Under Validation | TBD | Automated quality checks and validation. Validation dossier: `qms/06_records/software-validation/eQMS-git-native/` |
+| Markdown Editor (local) | TBD | Non-product | N/A | Text editor used by personnel to create and edit QMS documents in Markdown format | Not Validated | TBD | Standard text editing tool; validation not required per risk assessment |
+| Git Repository Backup | TBD | Non-product | N/A | Backup mechanism for eQMS repository (e.g., git clone --mirror, GitHub backup service, or equivalent) | Not Validated | TBD | Backup and disaster recovery; validation requirements TBD based on backup solution implemented |
 
 **Legend:**
 - **Type**: SaMD (Software as a Medical Device), SiMD (Software in a Medical Device), Non-product (software used in QMS but not a medical device)
